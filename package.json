@@ -4,12 +4,19 @@
   "description": "Proyecto Demo REST",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/index.js"
   },
   "author": "Francisco Ibarra Carlos",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "mongoose": "^5.4.20"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3"
   }
 }

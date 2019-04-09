@@ -1,0 +1,4 @@
+//es para indicar que va usar mscript 6
+{
+    "presets": ["@babel/preset-env"]
+}
