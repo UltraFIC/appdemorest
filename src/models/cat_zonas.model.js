@@ -1,3 +1,7 @@
+import mongoose from 'mongoose';
+import {ENVIRONMENT, FORMATS_FOR_DATE_AND_TIME} from "../ENV";
+const Schema = mongoose.Schema;
+
 module.exports = mongoose.model('cat_zonas', new Schema
 (
     {

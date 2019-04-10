@@ -33,3 +33,6 @@ router.get(ENVIRONMENT.ROUTES_MAIN_MODULES.EVENTS.ACTIONS.GET_ZONES_LIST, GetZon
 //-------------------------------
 //router.post(ENVIRONMENT.ROUTES_MAIN_MODULES.EVENTS.ACTIONS.OTRA_ACCION, OtroMetodo );
 //router.post(ENVIRONMENT.ROUTES_MAIN_MODULES.EVENTS.ACTIONS.OTRA_ACCION, ETC);
+
+//FIC: Exportar las rutas
+module.exports = router;
